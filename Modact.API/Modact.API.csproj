@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <VersionPrefix>1.8.2505.400</VersionPrefix>
+    <PackageIcon></PackageIcon>
+    <Description></Description>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Copyright>© by Marcus | Project Modact</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Modact\Modact.csproj" />
+  </ItemGroup>
+
+</Project>

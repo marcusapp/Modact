@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+  <connectionStrings>  
+    <add name="ModactModelGeneratorConnectionString" connectionString="Data Source=localhost;Initial Catalog=Modact;Integrated Security=true;" providerName="System.Data.SqlClient" />
+	<add name="LogModelGeneratorConnectionString" connectionString="Data Source=localhost;Initial Catalog=ModactLog;Integrated Security=true;" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  
+</configuration>
